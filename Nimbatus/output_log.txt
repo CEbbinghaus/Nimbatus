@@ -1,29 +1,27 @@
 Initialize engine version: 2017.2.0f3 (46dda1414e51)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 9.0c [nvldumdx.dll 23.21.13.8813]
-    Renderer: NVIDIA GeForce GTX 1070
-    Vendor:   NVIDIA
-    VRAM:     8096 MB (via DXGI)
-    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0 ATOC=1 BC4=1 BC5=1
+    Version:  Direct3D 9.0c [igdumd64.dll 8.15.10.2900]
+    Renderer: Intel(R) HD Graphics
+    Vendor:   Intel
+    VRAM:     880 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 NULL=1 RESZ=1 SlowINTZ=0 ATOC=0 BC4=1 BC5=1
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.054 seconds
+- Completed reload, in  0.283 seconds
 WARNING: Shader Unsupported: 'Hidden/VR/BlitTexArraySlice' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VR/BlitTexArraySlice' - Setting to default shader.
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 457c -> priority: 1 
-  Thread -> id: 151c -> priority: 1 
-  Thread -> id: 372c -> priority: 1 
-  Thread -> id: 3a00 -> priority: 1 
-UnloadTime: 0.687520 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 140c -> priority: 1 
+  Thread -> id: 2ff4 -> priority: 1 
+UnloadTime: 10.663840 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.461889 ms
+UnloadTime: 11.819112 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2532.
-Total: 2.183662 ms (FindLiveObjects: 0.073069 ms CreateObjectMapping: 0.042155 ms MarkObjects: 2.064093 ms  DeleteObjects: 0.003832 ms)
+Total: 43.717088 ms (FindLiveObjects: 0.365714 ms CreateObjectMapping: 0.228667 ms MarkObjects: 43.090369 ms  DeleteObjects: 0.030027 ms)
 
 [Steamworks.NET] SteamAPI_Init() failed. Refer to Valve's documentation or the comment above this line for more information.
  
@@ -33,3 +31,102 @@ GfxDevice: creating device client; threaded=1
 GfxDevice: creating device client; threaded=1
 GfxDevice: creating device client; threaded=1
 GfxDevice: creating device client; threaded=1
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.493555 ms
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 5466.
+Total: 28.412527 ms (FindLiveObjects: 0.824204 ms CreateObjectMapping: 0.704865 ms MarkObjects: 26.757574 ms  DeleteObjects: 0.123572 ms)
+
+GfxDevice: creating device client; threaded=1
+GfxDevice: creating device client; threaded=1
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 48.524882 ms
+
+Unloading 7239 unused Assets to reduce memory usage. Loaded Objects now: 8033.
+Total: 105.320294 ms (FindLiveObjects: 3.267174 ms CreateObjectMapping: 3.207505 ms MarkObjects: 52.543118 ms  DeleteObjects: 46.299800 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.556666 ms
+
+Unloading 179 unused Assets to reduce memory usage. Loaded Objects now: 5589.
+Total: 30.926330 ms (FindLiveObjects: 0.890032 ms CreateObjectMapping: 0.486592 ms MarkObjects: 29.154349 ms  DeleteObjects: 0.393046 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 58.789131 ms
+
+Unloading 7237 unused Assets to reduce memory usage. Loaded Objects now: 7813.
+Total: 79.303387 ms (FindLiveObjects: 3.167084 ms CreateObjectMapping: 2.482236 ms MarkObjects: 47.807697 ms  DeleteObjects: 25.843673 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.662784 ms
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 5576.
+Total: 62.984835 ms (FindLiveObjects: 0.871939 ms CreateObjectMapping: 0.710640 ms MarkObjects: 57.248127 ms  DeleteObjects: 4.151048 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.524582 ms
+The referenced script on this Behaviour (Game Object 'MeteorPrefab') is missing!
+ 
+(Filename:  Line: 1753)
+
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 5504.
+Total: 55.414937 ms (FindLiveObjects: 0.785708 ms CreateObjectMapping: 0.454255 ms MarkObjects: 53.981722 ms  DeleteObjects: 0.190941 ms)
+
+GfxDevice: creating device client; threaded=1
+NullReferenceException: Object reference not set to an instance of an object
+  at Assets.Nimbatus.Scripts.WorldObjects.Items.DroneParts.Weapons.Particles.ParticleGenerator+<OnParticleCollision>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GfxDevice: creating device client; threaded=1
+NullReferenceException: Object reference not set to an instance of an object
+  at Assets.Nimbatus.Scripts.WorldObjects.Items.DroneParts.Weapons.Particles.ParticleGenerator+<OnParticleCollision>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Assets.Nimbatus.Scripts.WorldObjects.Items.DroneParts.Weapons.Particles.ParticleGenerator+<OnParticleCollision>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Assets.Nimbatus.Scripts.WorldObjects.Items.DroneParts.Weapons.Particles.ParticleGenerator+<OnParticleCollision>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Assets.Nimbatus.Scripts.WorldObjects.Items.DroneParts.Weapons.Particles.ParticleGenerator+<OnParticleCollision>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GfxDevice: creating device client; threaded=1
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 129.245316 ms
+
+Unloading 422 unused Assets to reduce memory usage. Loaded Objects now: 17716.
+Total: 1922.270723 ms (FindLiveObjects: 7.482127 ms CreateObjectMapping: 7.206879 ms MarkObjects: 1900.145015 ms  DeleteObjects: 7.435161 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.981665 ms
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 17604.
+Total: 131.946596 ms (FindLiveObjects: 3.017334 ms CreateObjectMapping: 4.395884 ms MarkObjects: 122.232072 ms  DeleteObjects: 2.298994 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.910446 ms
+
+Unloading 184 unused Assets to reduce memory usage. Loaded Objects now: 17576.
+Total: 112.095630 ms (FindLiveObjects: 3.403066 ms CreateObjectMapping: 3.949713 ms MarkObjects: 104.026821 ms  DeleteObjects: 0.713720 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 47.284533 ms
+
+Unloading 7223 unused Assets to reduce memory usage. Loaded Objects now: 20240.
+Total: 262.051148 ms (FindLiveObjects: 10.095251 ms CreateObjectMapping: 6.113201 ms MarkObjects: 152.112846 ms  DeleteObjects: 93.727924 ms)
+
